@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: ital, wght @ 1,400; 1,700 & display = swap');
+
+*{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color:#000000;
+    font-weight: 400;
+    background-color: rgba(196, 196, 196, 0.993);
+    ;
+    
+}
+img{
+    max-width: 100%;
+}
+
+
+ul li{
+    list-style-type: none;
+    transition: text-decoration 1s;
+
+
+}
+/*header*/
+.barra_nav{
+    display: flex;
+    gap: 10px;
+    color: rgb(255, 255, 255);
+    
+}
+
+li:hover{
+    color: pink;
+
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#222222;
+    height: 100px;
+    padding: 1.5rem;
+
+}
+.fas{
+    color:#D01418;
+    font-size: 24px;
+}
+/*main*/
+.heroe{
+    background-image: url("../img/banner.png");
+    background-repeat: no-repeat;
+    background-size: cover;    
+    height: 50vh;
+    font-weight:700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+
+
+    
+}
+
+.dto{
+
+    color: #D01418;
+}
+button{
+
+    color: #F3F3F3;
+    font-size: 25px;
+    background-color: #D01418;
+    height: 2em;
+    padding: 0.5em;
+    border-radius: 5%;
+ 
+}
+.productos{
+
+    size: 30px;
+    text-align: center;
+    padding: 1.25rem;
+}
+
+.card-container {
+    display: flex;
+    justify-content: center;
+    gap: 1.25rem;
+
+     
+}
+
+.card{
+    background-color:#FFFFFF;
+
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    padding: 5.2rem;
+    border-radius: 15px;
+    
+}
+.card_silla ,.card_computadora{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 25vh;
+    width: 35vh;
+    padding: 1rem;
+    color: honeydew;
+    font-weight: 400;
+
+
+}
+.card_silla{
+    background-image: url(/img/silla_gamer.png);
+    background-repeat: no-repeat;
+    
+
+}
+.card_computadora{
+    background-image: url(/img/computadoras.png);
+    background-repeat: no-repeat;
+    
+
+
+    
+}
+.c{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    gap: 5.25rem;
+    padding: 1rem;
+}
+/* footer*/
+.top-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#000000;
+    height: 100px;
+    padding: 1.5rem;
+    color: white;
+
+  
+}
+
+.derechos{
+    background-color:#C4C4C4;
+    text-align: center;
+    font-size: 12px;
+}
+.iconos-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+h5{
+    padding: 1rem;
+    font-size: 20px;
+}
+.fab{
+    font-size: 1.5rem;
+}
+.fa-twitter{
+    color: #14AED0;
+
+}
+.fa-facebook{
+    color: #1476D0;
+
+}
+.fa-instagram{
+    color: #CE0CFF;
+    ;
+}
+
+/**responsive*/
